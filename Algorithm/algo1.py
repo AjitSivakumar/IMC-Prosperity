@@ -56,7 +56,7 @@ class Trader:
                 # Initialize the list of Orders to be sent as an empty list
                 orders: list[Order] = []
 
-                price = 4895
+                price = 4900
 
                 #Check and compute sell orders
                 if len(order_depth.sell_orders) > 0:
